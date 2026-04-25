@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Волейбольна секція. Тренування з класичного та пляжного волейболу, спортивні кемпи для дорослих та студентів.">
+    <title>Volley Club | Волейбольна секція</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            line-height: 1.6;
+        }
+        header { 
+            background: #004aad; 
+            color: white; 
+            padding: 1rem 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 1.5rem; 
+            font-weight: 500;
+        }
+        nav a:hover { color: #ffde59; }
+        .hero { 
+            background-color: #004aad; 
+            padding: 5rem 5%; 
+            text-align: center; 
+            color: white; 
+        }
+        .hero h1 { 
+            font-size: 3rem; 
+            margin-bottom: 1rem; 
+        }
+        .btn { 
+            display: inline-block;
+            background: #ffde59; 
+            color: #333; 
+            padding: 0.8rem 1.5rem; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            margin-top: 1.5rem;
+            transition: background 0.3s ease;
+        }
+        .btn:hover { background: #ffc107; }
+        .services { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 4rem 5%; 
+            flex-wrap: wrap; 
+            background: #f8f9fa;
+        }
+        .card { 
+            background: white; 
+            padding: 2rem; 
+            border-radius: 8px; 
+            width: 30%; 
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center; 
+            margin-bottom: 1.5rem;
+        }
+        footer { 
+            background: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 2rem 5%; 
+        }
+        @media (max-width: 768px) {
+            .card { width: 100%; }
+            header { flex-direction: column; text-align: center; }
+            nav a { margin: 0.5rem; display: inline-block; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>Volley Club</h2></div>
+        <nav>
+            <a href="#about">Про нас</a>
+            <a href="#trainings">Напрямки</a>
+            <a href="#contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Твій найкращий стрибок починається тут</h1>
+        <p>Приєднуйся до нашої волейбольної спільноти. Регулярні тренування, підготовка до турнірів та виїзні збори.</p>
+        <a href="#contacts" class="btn">Записатися на пробне тренування</a>
+    </section>
+
+    <section id="trainings" class="services">
+        <div class="card">
+            <h3>Класичний волейбол</h3>
+            <p>Відпрацювання техніки прийому, пасу та нападаючого удару в сучасному залі. Групи для різних рівнів підготовки.</p>
+        </div>
+        <div class="card">
+            <h3>Пляжний волейбол</h3>
+            <p>Інтенсивні тренування на піску. Покращення витривалості, швидкості реакції та техніки гри в парах.</p>
+        </div>
+        <div class="card">
+            <h3>Спортивні кемпи</h3>
+            <p>Виїзні тренувальні збори, де спорт поєднується з активним відпочинком та спілкуванням у колі однодумців.</p>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <h3>Залишилися питання?</h3>
+        <p>Напиши нам у Telegram або зателефонуй: +38 (000) 000-00-00</p>
+        <p>Локація: Київ</p>
+    </footer>
+</body>
+</html>
